@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LOG-1 The User Has Successfully Logged In With The Correct Accuount</name>
+   <tag>log-1</tag>
+   <comment></comment>
+   <testCaseGuid>099377ce-709d-443d-becf-c6b5ac147ae6</testCaseGuid>
+</TestCaseEntity>

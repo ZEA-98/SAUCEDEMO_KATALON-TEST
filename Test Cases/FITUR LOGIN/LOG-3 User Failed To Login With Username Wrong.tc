@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LOG-3 User Failed To Login With Username Wrong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>578a2df8-f7dc-40b9-8f14-af7e03e945e5</testCaseGuid>
+</TestCaseEntity>

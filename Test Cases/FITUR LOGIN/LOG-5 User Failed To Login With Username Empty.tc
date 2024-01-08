@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LOG-5 User Failed To Login With Username Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99d9b8cf-525d-490c-863d-815a7063e773</testCaseGuid>
+</TestCaseEntity>

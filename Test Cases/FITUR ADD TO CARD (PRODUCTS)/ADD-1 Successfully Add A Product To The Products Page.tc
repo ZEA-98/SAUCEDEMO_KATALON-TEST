@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ADD-1 Successfully Add A Product To The Products Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1d9a537-ceed-4992-9b7c-12e189c684d1</testCaseGuid>
+</TestCaseEntity>
