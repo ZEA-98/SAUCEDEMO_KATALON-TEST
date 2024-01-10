@@ -19,18 +19,35 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://www.saucedemo.com/v1/inventory.html')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/SEARCH/select_Name (A to Z)Name (Z to A)Price (low_f7e90a'), 
-    'za', true)
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/SEARCH/div_All ItemsAboutLogoutReset App StateClos_f56fb4'))
+WebUI.click(findTestObject('ADD TO CARD/button_ADD TO CART'))
 
-WebUI.scrollToPosition(50, 60)
+WebUI.click(findTestObject('ADD TO CARD/button_ADD TO CART -2'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/SEARCH/div_Sauce Labs Backpack'), 'Sauce Labs Backpack')
+WebUI.click(findTestObject('ADD TO CARD/button_ADD TO CART - 3'))
+
+WebUI.click(findTestObject('ADD TO CARD/button_ADD TO CART - 4'))
+
+WebUI.click(findTestObject('ADD TO CARD/button_ADD TO CART - 5'))
+
+WebUI.click(findTestObject('ADD TO CARD/span_5'))
+
+WebUI.click(findTestObject('Object Repository/CHEKOUT/a_CHECKOUT'))
+
+WebUI.setText(findTestObject('Object Repository/CHEKOUT/inputfirst-name'), 'ZEA')
+
+WebUI.setText(findTestObject('Object Repository/CHEKOUT/inputlast-name'), 'ADREENA')
+
+WebUI.setText(findTestObject('Object Repository/CHEKOUT/inputpostal-code'), '1234')
+
+WebUI.click(findTestObject('Object Repository/CHEKOUT/input_btn_primary cart_button'))
+
+WebUI.click(findTestObject('CHEKOUT/a_FINISH'))
+
+WebUI.verifyElementText(findTestObject('CHEKOUT/h2_THANK YOU FOR YOUR ORDER'), 'THANK YOU FOR YOUR ORDER')
 
 WebUI.closeBrowser()
 

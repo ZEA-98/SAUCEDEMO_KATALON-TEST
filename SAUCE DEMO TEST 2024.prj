@@ -4,9 +4,10 @@
    <name>SAUCE DEMO TEST 2024</name>
    <tag></tag>
    <UUID>7861c228-5c8c-4291-9246-0198ef5f8652</UUID>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\acer\Katalon Studio\SAUCE DEMO TEST 2024\SAUCE DEMO TEST 2024.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

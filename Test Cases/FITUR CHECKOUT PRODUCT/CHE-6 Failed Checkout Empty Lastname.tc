@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CHE-6 Failed Checkout Empty Lastname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>892b6645-896a-4967-acb5-9926f3d39275</testCaseGuid>
+</TestCaseEntity>
